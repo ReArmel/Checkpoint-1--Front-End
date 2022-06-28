@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&family=Poppins:wght@100&family=Roboto+Condensed:wght@300&family=Roboto:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.start {
+    display: flex;
+    justify-content: space-between;
+    background-color: #9f5e40d3;
+    height: 80px;
+    position: sticky;
+    top: 0;
+}
+
+.image1 {
+    width: 80px;
+    height: 80px;
+}
+
+.start1 {
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.ms {
+    color: #513232;
+    font-size: 40px;
+}
+
+.list {
+    display: flex;
+    gap: 25px;
+    color: #0f580f;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 100px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.start .list li:hover {
+    color: #513232;
+    cursor: pointer;
+}
+
+.list-image {
+    width: 50px;
+    height: 50px;
+}
+
+.list li a {
+    text-decoration: none;
+}
+
+.list li a:visited {
+    color: #0f580f;
+}
+
+.article-content {
+    background-image: url(./images/pantanal.jpg);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.article-main {
+    width: 500px;
+    height: fit-content;
+    margin-right: 200px;
+}
+
+.article-content p {
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 500;
+    color: #f8f9fa;
+    text-shadow: 0.2em 0.1em 0.2em white;
+}
+
+.before-image {
+    height: 20px;
+}
+
+.image-between {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-mother {
+    background-color: #ffe0e0;
+}
+
+.curiosity {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 35px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #51323297;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+
+}
+
+.image-ms {
+    width: 300px;
+    height: 400px;
+    background-color: #f2d7d7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+
+}
+
+.image-ms img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px 20px 10px 10px;
+}
+
+.image-container .image-ms p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #0f580f;
+    text-align: center;
+}
+
+.image-container .image-ms button {
+    width: 100px;
+    background-color: #81a781aa;
+    border-radius: 15px;
+    border-color: #81a781aa;
+    transition: 0.3s;
+}
+
+.image-container .image-ms button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.video iframe {
+    box-shadow: 10px 10px;
+    color: #120909df;
+    margin-bottom: 20px;
+}
+
+.video iframe:hover {
+    transform: scale();
+}
+
+.after-video {
+    margin-top: 20px;
+    height: 20px;
+}
+
+.after-video1 {
+    background-image: url(https://urbanarts.vteximg.com.br/arquivos/ids/9787955/139271_Ampliada.jpg?v=637667804587430000);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.news {
+    text-align: center;
+    color: #5b2525;
+    font-size: 30px;
+}
+
+.main-form {
+    background-color: rgba(235, 196, 196, 0.952);
+    width: 500px;
+    height: fit-content;
+    border-radius: 15px;
+    border-color: #260f0fdf;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    width: 400px;
+    height: 25px;
+    border-radius: 15px;
+    border: none;
+    background-color: #034f0325;
+}
+
+.form input::-webkit-input-placeholder {
+    padding-left: 5px;
+}
+
+.form label {
+    color: #5b2525;
+}
+
+.form-button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.form-button button {
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #513232cc;
+    color: #f8f9fa;
+}
+
+.form-button button:hover {
+    transform: scale(1.06);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.main-footer {
+    height: fit-content;
+    background-color: #19600ec1;
+    padding-bottom: 20px;
+}
+
+.cocar {
+    width: 70px;
+    height: 70px;
+    margin: 40px;
+}
+
+.main-footer1 {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    gap: 60px;
+}
+
+.image-footer {
+    display: flex;
+    gap: 5px;
+    justify-content: end;
+    margin-right: 60px;
+}
+
+.main-footer .image-footer img {
+    width: 50px;
+    height: 50px;
+
+}
+
+.main-footer .image-footer img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.final {
+    background-color: #2b1a1a;
+    text-align: center;
+}
+
+.final1 {
+    font-family: 'Indie Flower', cursive;
+    color: #b5f7b5;
+}
+
+@media (max-width: 426px) {
+    .start {
+        gap: 60px;
+    }
+
+    .list {
+        gap: 5px;
+        align-items: center;
+    }
+
+    .list li {
+        font-size: 10px;
+    }
+
+    .image1 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .ms {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .list-image {
+        width: 20px;
+        height: 20px;
+    }
+
+    .article-content p {
+        font-size: 60px;        
+    }
+
+    .video iframe {
+        width: 380px;
+        height: 300px;
+    }
+
+    .main-form {
+        width: 300px;
+    }
+
+    .form input {
+        width: 250px;
+    }
+
+    .form {
+        align-items: center;
+    }
+
+    .cocar {
+        width: 30px;
+        height: 30px;
+        margin: 20px;
+    }
+
+    .main-footer1 p {
+        font-size: 9px;
+    }
+
+    .main-footer .image-footer img {
+        width: 25px;
+        height: 25px;
+        margin-top: 10px;
+    }
+
+    .image-footer {
+        justify-content: center;
+        margin: auto;
+    }
+}
